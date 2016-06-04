@@ -1,0 +1,14 @@
+/*tragger css*/
+
+.tr-tgr-prnt { width: 100%; border-radius: 3px; border:1px solid #ccc; padding: 2px; padding-bottom: 0px;position: relative; }
+.tr-tgr-val-cont { display: block; }
+.tr-tgr-val-cont .tr-val-ele {display: inline-block;    padding: 1px 6px;  margin: 1px;  background-color: white;    box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);    border-radius: 3px;    background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);    border: 1px solid #909090;}
+.tr-tgr-val-cont .tr-val-ele .tr-val-ele-txt { color: #545454;    font-size: 12px; }
+.tr-tgr-val-cont .tr-val-ele a.tr-val-ele-cls-btn {font-size: 12px;    padding: 2px; color: #7D7D7D;}
+.tr-tgr-inp-cont { padding: 0px; display: block; }
+.tr-tgr-val-inp{padding: 0px; width: 100%; resize: none; border:none; height: 25px;}
+.tr-tgr-val-inp:focus {outline: none;}
+.tr-tgr-dpdn-list {    position: absolute;    background: #fff;   bottom: inherit;    top: 56px;    width: 100%;    border: 1px solid #ccc;    left: 0;    right: 0;    border-bottom-left-radius: 3px;    border-bottom-right-radius: 3px;    z-index: 5;    max-height: 100px;    overflow-x: auto;}
+.tr-tgr-dpdn-list ul li {    list-style: none; margin: 0;     padding: 3px 8px;    border-bottom: 1px solid #D6D6D6;}
+.tr-tgr-dpdn-list ul {   padding: 0px;    margin: 4px 0px;    list-style: none;}
+.tr-tgr-dpdn-list ul li:hover {  background:#fff;box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05); cursor: pointer; background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);}
